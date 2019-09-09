@@ -234,6 +234,13 @@
         </div>
       </section>
       <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported! Please use a modern browser.
+          </video>
+        </div>
         <div class="u-center-text u-margin-bottom-lg">
           <h2 class="heading-secondary">We make people genuinely happy</h2>
         </div>
@@ -245,6 +252,7 @@
                 alt="Person on a something"
                 class="story__img"
               />
+              <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
               <h3 class="heading-tertiary u-margin-bottom-sm">
@@ -260,8 +268,133 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a something"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-sm">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, unde facere. Sapiente rerum distinctio quas
+                inventore aliquid deserunt eum quo? Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+                blanditiis illo molestias beatae? Accusantium, nulla. Repellat
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-lg">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section>
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <div class="u-margin-bottom-md">
+                <h2 class="heading-secondary">Start booking now</h2>
+              </div>
+              <form class="form" action="#">
+                <div class="form__group">
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    placeholder="Full name"
+                    class="form__input"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    placeholder="Email address"
+                    class="form__input"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+                <div class="form-group u-margin-bottom-md">
+                  <div class="form__radio-group">
+                    <input
+                      id="small"
+                      type="radio"
+                      class="form__radio-input"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+                  <div class="form__radio-group">
+                    <input
+                      id="large"
+                      type="radio"
+                      class="form__radio-input"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn--green">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by
+            <a href="#" class="footer__link">Luke Miller</a>
+          </p>
+        </div>
+      </div>
+    </footer>
     <!--  <section class="grid-test">
       <div class="row">
         <div class="col-1-of-2">Col 1 of 2</div>
